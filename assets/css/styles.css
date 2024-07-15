@@ -1,0 +1,134 @@
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100, 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: transparent !important;
+    margin-bottom: -90px;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 100;
+}
+
+.imgnav {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.titulonav {
+    margin: 0;
+    font-family: "Raleway";
+    font-weight: 400;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-family: "Raleway";
+    font-weight: 100;
+}
+
+.titulos {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Raleway";
+    padding-bottom: 25px;
+}
+
+.presentacion {
+    padding-top: 50px;
+    color: #ffffff;
+    text-align: left !important;
+}
+
+.icons {
+    background-color: #0DCAF0;
+
+}
+
+.conticons {
+    background-color: #0DCAF0;
+}
+
+.card-body {
+    color: #ffffff;
+}
+
+.cardestacados {
+    background-color: #0DCAF0;
+}
+
+footer {
+    height: 70px;
+    background-color: #0DCAF0;
+    display: flex;
+    align-items: center;
+}
+
+.card-img-top {
+    height: 150px;
+}
+
+.contenedorgeneral {
+    background-color: #000000;
+}
+
+.card-text {
+    text-align: justify;
+    font-family: "Raleway";
+}
+
+.nomform {
+    text-align: left;
+    font-family: "Raleway";
+    color: #ffffff;
+}
+
+.full-width {
+    width: 100%
+}
+
+.titulofooter {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Raleway";
+    font-size: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    color: #ffffff;
+}
+@media only screen and (max-width: 768px
+    /* solo sm y md */
+) {
+
+    /* https://getbootstrap.com/docs/5.3/layout/grid/
+        xs <576px	
+        sm ≥576px	
+        md ≥768px	
+        lg ≥992px    
+    */
+    .presentacion {
+        display: none;
+    }
+    .navbar {
+        position: absolute;
+    }
+ 
+}
