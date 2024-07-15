@@ -1,3 +1,4 @@
+/*Configuración de font raleway en el proyecto*/
 .raleway {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -32,6 +33,7 @@
 
 .titulonav {
     margin: 0;
+    color: #ffffff;
     font-family: "Raleway";
     font-weight: 400;
 }
@@ -109,11 +111,13 @@ footer {
     font-family: "Raleway";
     font-size: 20px;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: flex-start;
     color: #ffffff;
 }
+
 @media only screen and (max-width: 768px
     /* solo sm y md */
 ) {
@@ -127,8 +131,9 @@ footer {
     .presentacion {
         display: none;
     }
-    .navbar {
-        position: absolute;
+
+    .navbar-brand {
+        position: relative;
     }
- 
+
 }

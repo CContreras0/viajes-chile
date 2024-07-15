@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
+    <!--Recurso externo: Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!--Recurso externo: Google font-->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet"> 
-<!--Integración CDN Boostrap-->
+        rel="stylesheet">
+    <!--Integración CDN Boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Vincula hoja de estilos CSS (externa) al documento HTML-->
-    <link rel="stylesheet" href="assets/css/styles.css"> 
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -51,7 +51,8 @@
             </div>
         </nav>
 
-        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel"> <!--Componente Boostrap(Carrousel)-->
+        <!--Componente Boostrap(Carrousel)-->
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner" id="inicio">
                 <div class="carousel-item active">
                     <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Imagen1">
@@ -83,6 +84,7 @@
                         <div class="col-md-4 mb-3">
                             <div class="p-3">
                                 <div class="conticons">
+                                    <!--Recurso externo: fontawesome.com-->
                                     <svg class="icons" xmlns="http://www.w3.org/2000/svg" height="30" width="30"
                                         viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                                         <path fill="#ffffff"
@@ -120,6 +122,7 @@
                                     est
                                     laborum.</p>
                                 <div class="conticons">
+                                    <!--Recurso externo: fontawesome.com-->
                                     <svg class="icons" xmlns="http://www.w3.org/2000/svg" height="30" width="30"
                                         viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                                         <path fill="#ffffff"
@@ -131,6 +134,7 @@
                         <div class="col-md-4 mb-3">
                             <div class="p-3">
                                 <div class="conticons">
+                                    <!--Recurso externo: fontawesome.com-->
                                     <svg class="icons" xmlns="http://www.w3.org/2000/svg" height="30" width="30"
                                         viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                                         <path fill="#ffffff"
@@ -156,6 +160,7 @@
                 </div>
             </div>
 
+            <!--Componente Boostrap(Cards)-->
             <div class="container text-center">
                 <p class="titulos" id="destacados">DESTACADOS</p>
                 <div class="row cols-4 ">
@@ -202,6 +207,7 @@
                 </div>
             </div>
 
+            <!--Componente Boostrap(Formulario)-->
             <div class="container text-center">
                 <p class="titulos mt-5" id="contacto">CONTACTO</p>
                 <div class="row">
@@ -235,7 +241,7 @@
                     </div>
                 </div>
             </div>
-<!--Footer-->
+            <!--Footer-->
             <footer>
                 <div class="d-flex justify-content-around full-width">
                     <div>
@@ -275,18 +281,15 @@
             </footer>
 
         </div>
+        <!--Codigo de integración JQ-->
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!--Codigo de integración JS con Boostrap-->    
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
 
             </script>
-        <script>
-            $(document).ready(function () {
-                console.log("ready!");
-                //$('.carousel').carousel();
-            });
-        </script>
+      
 
     </body>
 
