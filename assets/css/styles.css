@@ -110,6 +110,7 @@ footer {
     text-align: left;
     font-family: "Raleway";
     font-size: 20px;
+    padding-top: 15px;
 }
 
 .btn {
@@ -118,14 +119,15 @@ footer {
 }
 
 div a {
-    font-size: 2rem;         
+    font-size: 2rem;
     text-decoration: none;
     margin: 0 5px;
-  }
+}
 
 @media only screen and (max-width: 768px
     /* solo sm y md */
 ) {
+
     /* https://getbootstrap.com/docs/5.3/layout/grid/
         xs <576px	
         sm ≥576px	
